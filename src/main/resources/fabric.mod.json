@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "valor",
 	"version": "${version}",
-	"name": "valor",
+	"name": "Valor",
 	"description": "Base mod for the Valor mod-pack.",
 	"authors": [
 		"Kyber_6",
