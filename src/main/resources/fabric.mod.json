@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "valor",
+	"version": "${version}",
+	"name": "valor",
+	"description": "Base mod for the Valor mod-pack.",
+	"authors": [
+		"Kyber_6",
+		"PixelDreamStudios"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "ARR",
+	"icon": "assets/valor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pixeldream.Valor"
+		],
+		"client": [
+			"net.pixeldream.ValorClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
