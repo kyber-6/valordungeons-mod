@@ -1,0 +1,108 @@
+{
+  "dungeon_type": "skullhaven",
+  "difficulty": {
+    "easy": {
+      "mob_modificator": 1.0,
+      "loot_table_ids": [
+        "dungeonz:chests/dark_dungeon_low_tier_chest_loot",
+        "dungeonz:chests/dark_dungeon_mid_tier_chest_loot"
+      ],
+      "boss_modificator": 1.0,
+      "boss_loot_table_id": "dungeonz:chests/dark_dungeon_easy_boss_loot"
+    },
+    "normal": {
+      "mob_modificator": 1.5,
+      "loot_table_ids": [
+        "dungeonz:chests/dark_dungeon_low_tier_chest_loot",
+        "dungeonz:chests/dark_dungeon_mid_tier_chest_loot",
+        "dungeonz:chests/dark_dungeon_high_tier_chest_loot"
+      ],
+      "boss_modificator": 2.0,
+      "boss_loot_table_id": "dungeonz:chests/dark_dungeon_normal_boss_loot"
+    },
+    "hard": {
+      "mob_modificator": 3.0,
+      "loot_table_ids": [
+        "dungeonz:chests/dark_dungeon_mid_tier_chest_loot",
+        "dungeonz:chests/dark_dungeon_high_tier_chest_loot",
+        "dungeonz:chests/dark_dungeon_end_tier_chest_loot"
+      ],
+      "boss_modificator": 4.0,
+      "boss_loot_table_id": "dungeonz:chests/dark_dungeon_hard_boss_loot"
+    }
+  },
+  "blocks": {
+    "minecraft:green_wool": {
+      "spawns": [
+        "minecraft:skeleton"
+      ],
+      "chance": {
+        "easy": 0.4,
+        "normal": 0.7,
+        "hard": 1.0
+      },
+      "replace": "minecraft:air"
+    },
+    "minecraft:yellow_wool": {
+      "spawns": [
+        "adventurez:skeleton_vanguard"
+      ],
+      "chance": {
+        "easy": 0.4,
+        "normal": 0.7,
+        "hard": 1.0
+      },
+      "replace": "minecraft:air"
+    },
+    "minecraft:orange_wool": {
+      "spawns": [
+        "adventurez:summoner"
+      ],
+      "chance": {
+        "easy": 0.4,
+        "normal": 0.7,
+        "hard": 1.0
+      },
+      "replace": "minecraft:air"
+    },
+    "minecraft:red_wool": {
+      "spawns": [
+        "adventurez:soul_reaper"
+      ],
+      "chance": {
+        "easy": 0.4,
+        "normal": 0.7,
+        "hard": 1.0
+      },
+      "replace": "minecraft:air"
+    },
+    "minecraft:netherite_block": {
+      "boss_entity": "soulsweapons:returning_knight",
+      "replace": "minecraft:air"
+    },
+    "minecraft:emerald_block": {
+      "boss_loot_block": true,
+      "replace": "minecraft:air"
+    },
+    "minecraft:quartz_block": {
+      "exit_block": true,
+      "replace": "minecraft:air"
+    }
+  },
+  "spawner": {
+    "minecraft:zombie": 10,
+    "minecraft:skeleton": 5
+  },
+  "breakable": [],
+  "placeable": [
+    "minecraft:torch"
+  ],
+  "required": {
+    "valor:first_dungeon_key": 1
+  },
+  "elytra": false,
+  "max_group_size": 6,
+  "cooldown": 100,
+  "background_texture": "",
+  "dungeon_structure_pool_id": "valor:skullhaven/skullhaven_spawn"
+}
