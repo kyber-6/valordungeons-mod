@@ -1,5 +1,5 @@
 {
-  "name": "valordungeons:skullhaven_spawn",
+  "name": "valordungeons:skullhaven/skullhaven_spawn",
   "fallback": "minecraft:empty",
   "elements": [
     {

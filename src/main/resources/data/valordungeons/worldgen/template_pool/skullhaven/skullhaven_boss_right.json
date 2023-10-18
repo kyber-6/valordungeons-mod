@@ -1,5 +1,5 @@
 {
-  "name": "valordungeons:skullhaven_boss_right",
+  "name": "valordungeons:skullhaven/skullhaven_boss_right",
   "fallback": "minecraft:empty",
   "elements": [
     {
