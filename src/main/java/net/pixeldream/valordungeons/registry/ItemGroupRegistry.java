@@ -12,7 +12,7 @@ import net.pixeldream.valordungeons.ValorDungeons;
 
 public class ItemGroupRegistry {
     public static final ItemGroup VALOR_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier(ValorDungeons.MOD_ID, ValorDungeons.MOD_ID), FabricItemGroup.builder().displayName(Text.translatable("itemgroup." + ValorDungeons.MOD_ID)).icon(() -> new ItemStack(Items.RED_MUSHROOM)).entries((displayContext, entries) -> {
-        entries.add(ItemRegistry.FIRST_DUNGEON_KEY);
+        entries.add(ItemRegistry.SKULLHAVEN_KEY);
     }).build());
 
 

@@ -8,7 +8,7 @@ import net.minecraft.util.Identifier;
 import net.pixeldream.valordungeons.ValorDungeons;
 
 public class ItemRegistry {
-    public static final Item FIRST_DUNGEON_KEY = registerItem("first_dungeon_key", new Item(new FabricItemSettings().maxCount(1)));
+    public static final Item SKULLHAVEN_KEY = registerItem("skullhaven_key", new Item(new FabricItemSettings().maxCount(1)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ValorDungeons.MOD_ID, name), item);
