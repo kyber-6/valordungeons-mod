@@ -104,5 +104,5 @@
   "max_group_size": 6,
   "cooldown": 100,
   "background_texture": "",
-  "dungeon_structure_pool_id": "valor:skullhaven/skullhaven_spawn"
+  "dungeon_structure_pool_id": "valordungeons:skullhaven/skullhaven_spawn"
 }
