@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "valordungeons:item/first_dungeon_key"
+    "layer0": "valordungeons:item/skullhaven_key"
   }
 }

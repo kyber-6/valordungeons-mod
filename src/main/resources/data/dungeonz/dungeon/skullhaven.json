@@ -98,7 +98,7 @@
     "minecraft:torch"
   ],
   "required": {
-    "valordungeons:first_dungeon_key": 1
+    "valordungeons:skullhaven_key": 1
   },
   "elytra": false,
   "max_group_size": 6,
