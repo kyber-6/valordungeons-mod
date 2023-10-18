@@ -98,7 +98,7 @@
     "minecraft:torch"
   ],
   "required": {
-    "valor:first_dungeon_key": 1
+    "valordungeons:first_dungeon_key": 1
   },
   "elytra": false,
   "max_group_size": 6,

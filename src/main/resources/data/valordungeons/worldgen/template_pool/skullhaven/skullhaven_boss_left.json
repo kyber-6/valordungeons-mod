@@ -1,0 +1,1 @@
+{  "name": "valordungeons:skullhaven_boss_left",  "fallback": "minecraft:empty",  "elements": [    {      "weight": 1,      "element": {        "location": "valordungeons:skullhaven_boss_left",        "processors": "minecraft:empty",        "projection": "rigid",        "element_type": "minecraft:single_pool_element"      }    }  ]}

@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "valor",
+	"id": "valordungeons",
 	"version": "${version}",
-	"name": "Valor",
-	"description": "Base mod for the Valor mod-pack.",
+	"name": "Valor Dungeons",
+	"description": "Dungeons for Valor!",
 	"authors": [
 		"Kyber_6",
 		"PixelDreamStudios"
@@ -13,22 +13,21 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "ARR",
-	"icon": "assets/valor/icon.png",
+	"icon": "assets/valordungeons/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.pixeldream.valor.Valor"
+			"net.pixeldream.valordungeons.ValorDungeons"
 		],
 		"client": [
-			"net.pixeldream.valor.ValorClient"
+			"net.pixeldream.valordungeons.ValorDungeonsClient"
 		]
 	},
 	"depends": {
 		"fabricloader": ">=0.14.22",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
-		"fabric-api": "*",
-		"azurelib": ">=1.0.29"
+		"fabric-api": "*"
 	},
 	"suggests": {
 		"another-mod": "*"

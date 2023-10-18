@@ -1,1 +1,0 @@
-{  "name": "valor:skullhaven_boss_mid",  "fallback": "minecraft:empty",  "elements": [    {      "weight": 1,      "element": {        "location": "valor:skullhaven_boss_mid",        "processors": "minecraft:empty",        "projection": "rigid",        "element_type": "minecraft:single_pool_element"      }    }  ]}
