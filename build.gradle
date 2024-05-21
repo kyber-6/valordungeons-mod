@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '1.2-SNAPSHOT'
+	id 'fabric-loom' version '1.6-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -11,7 +11,7 @@ base {
 }
 
 repositories {
-
+	maven { url "https://api.modrinth.com/maven" }
 }
 
 dependencies {
@@ -19,6 +19,8 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	modImplementation "maven.modrinth:dungeonz:${project.dungeonz_version}"
 }
 
 processResources {

@@ -1,4 +1,4 @@
-package net.pixeldream.valordungeons;
+package net.pixeldreamstudios.valordungeons;
 
 import net.fabricmc.api.ClientModInitializer;
 

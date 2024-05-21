@@ -1,8 +1,8 @@
-package net.pixeldream.valordungeons;
+package net.pixeldreamstudios.valordungeons;
 
 import net.fabricmc.api.ModInitializer;
-import net.pixeldream.valordungeons.registry.ItemGroupRegistry;
-import net.pixeldream.valordungeons.registry.ItemRegistry;
+import net.pixeldreamstudios.valordungeons.registry.ItemGroupRegistry;
+import net.pixeldreamstudios.valordungeons.registry.ItemRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
